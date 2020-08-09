@@ -1,0 +1,126 @@
+﻿:root {
+  --tifany:#1DE9B6;
+  --light-tifany: #B2DFDB;
+  --light-orange-10:#ffcd7b;
+  --light-orange:#ffaa20;
+  --orange:#ff9e00;
+  --light-blue:#2e80e9;
+  --blue : #0f6ce3;
+  --light-gray-10: #f9f9f9;
+  --light-gray: #d2d2d2;
+  --gray-10: #ababab;
+  --gray:#959595;
+  --white : #ffffff;
+  --light-black :#353535;
+  --black: #000000;
+  --light-green:#b0e4b4;
+  --green :#8ad472;
+  --dark-green:#3b533d;
+  --light-red:#ffacaa;
+  --red:#fd7a91;
+}
+
+body{
+  background: var(--light-tifany)!important;
+}
+
+#counter{
+  padding: 1em!important;
+  font-size: 1.5em!important;
+  color: var(--light-black)!important;
+
+}
+
+#boxcard > div > div > div{
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+#boxcard > div > div > div.front{
+  border: 1px solid var(--gray-10)!important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+
+}
+
+#boxcard > div > div > div.back{
+  background: var(--white) !important;
+  border: 1px solid var(--light-gray)!important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+
+}
+
+#boxcard > div img{
+  border-radius: 9px!important;
+}
+
+#boxcard .cardInner {
+  font-size: 1.5em!important;
+  color: var(--light-black)!important;
+}
+
+#boxcard > div.flippedDone .cardInner div{
+  border: 4px solid var(--green)!important;
+  border-radius: 5px!important;
+}
+
+#boxcard > div img {
+  max-width: 150px!important;
+  max-height: 150px!important;
+}
+
+/* meseage */
+#AppClientTaskPanel{
+  border-radius: 8px !important;
+  background-color: var(--white)!important;
+  border-top: 9px solid var(--orange)!important;
+  border-left: 1px solid var(--light-gray)!important;
+  border-right: 1px solid var(--light-gray)!important;
+  border-bottom: 1px solid var(--light-gray)!important;
+  padding: 25px!important;
+  -webkit-box-shadow:none !important;
+          box-shadow:none !important;
+}
+
+#AppClientTaskPanel p{
+  margin: 0 0 15px !important;
+  color: var(--light-black)!important;
+}
+
+#AppClientTaskPanel div{
+  color: var(--light-black)!important;
+  text-align: justify!important;
+}
+
+#AppClientTaskPanel div button{
+  font-size: 120%!important;
+  width: 100%!important;
+  margin: 25px 0 0!important;
+  padding: 5px!important;
+  border: none!important;
+  color: var(--white)!important;
+  background: var(--blue);
+  border-radius: 20px!important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+#AppClientTaskPanel div button:hover{
+  opacity: 0.5!important;       
+}
+
+.example {
+    display: -ms-grid;
+    display: grid;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    background: -o-linear-gradient(top, var(--white),var(--black));
+    background: -webkit-gradient(linear, left top, left bottom, from(var(--white)),to(var(--black)));
+    background: linear-gradient(to bottom, var(--white),var(--black));
+}
