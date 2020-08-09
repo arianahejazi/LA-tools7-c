@@ -36,11 +36,17 @@ body , *{
   border-radius: 50px!important;
   height: 25px!important;
   margin-top: 20px!important;
+  -webkit-border-radius: 50px!important;
+  -moz-border-radius: 50px!important;
+  -ms-border-radius: 50px!important;
+  -o-border-radius: 50px!important;
 }
+
 .progress-label {
   color: var(--light-black)!important;
   text-shadow: none!important;
 }
+
 .ui-progressbar .ui-progressbar-value{
   background: var(--light-tifany)!important;
   border: none!important;
@@ -95,23 +101,33 @@ small{
 .ui-controlgroup-vertical .ui-btn{
   background: var(--white)!important;
   color: var(--light-black)!important;
+  height: 40px!important;
 }
 
 .ui-controlgroup-vertical .ui-radio{
   background: var(--white)!important;
   color: var(--light-black)!important;
-  border: 0.5px solid var(--light-gray);
-  border-radius: 50px;
-  margin: 10px 0;
+  border: 0.5px solid var(--light-gray)!important;
+  border-radius:50px!important;
+  margin: 10px 0!important;
+  height: 40px!important;
+  -webkit-border-radius:50px!important;
+  -moz-border-radius:50px!important;
+  -ms-border-radius:50px!important;
+  -o-border-radius:50px!important;
 }
 
 .ui-controlgroup-vertical .ui-radio:hover{
   background: var(--white)!important;
   color: var(--light-black)!important;
   border: 0.5px solid var(--light-gray);
-  border-radius: 50px;
-  margin: 10px 0;
-  opacity: 0.5;
+  border-radius:50px!important;
+  margin: 10px 0 !important;
+  opacity: 0.5 !important;
+  -webkit-border-radius:50px!important;
+  -moz-border-radius:50px!important;
+  -ms-border-radius:50px!important;
+  -o-border-radius:50px!important;
 }
 
 .ui-btn-up-b{
@@ -121,6 +137,7 @@ small{
   background: var(--blue)!important;
   -webkit-box-shadow: none!important;
           box-shadow: none!important;
+          height: 40px!important;
 }
 
 .ui-btn-hover-b{
@@ -131,6 +148,7 @@ small{
   -webkit-box-shadow: none!important;
           box-shadow: none!important;
   opacity: 0.5 !important;
+  height: 40px!important;
 }
 
 .ui-btn-up-b:hover{
