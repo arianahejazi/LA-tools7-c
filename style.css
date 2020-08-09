@@ -85,6 +85,35 @@ body , *{
   border: none !important;
 }
 
+small{
+  padding: 20px 0!important;
+  display: block!important;
+  text-align: justify!important;
+  color: var(--light-black)!important;
+}
+
+.ui-controlgroup-vertical .ui-btn{
+  background: var(--white)!important;
+  color: var(--light-black)!important;
+}
+
+.ui-controlgroup-vertical .ui-radio{
+  background: var(--white)!important;
+  color: var(--light-black)!important;
+  border: 0.5px solid var(--light-gray);
+  border-radius: 50px;
+  margin: 10px 0;
+}
+
+.ui-controlgroup-vertical .ui-radio:hover{
+  background: var(--white)!important;
+  color: var(--light-black)!important;
+  border: 0.5px solid var(--light-gray);
+  border-radius: 50px;
+  margin: 10px 0;
+  opacity: 0.5;
+}
+
 .ui-btn-up-b{
   border-radius: 50px!important;
   border: 1px solid var(--light-gray)!important;
