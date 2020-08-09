@@ -107,7 +107,6 @@ small{
 .ui-controlgroup-vertical .ui-radio{
   background: var(--white)!important;
   color: var(--light-black)!important;
-  border: 0.5px solid var(--light-gray)!important;
   border-radius:50px!important;
   margin: 10px 0!important;
   height: 40px!important;
@@ -120,7 +119,6 @@ small{
 .ui-controlgroup-vertical .ui-radio:hover{
   background: var(--white)!important;
   color: var(--light-black)!important;
-  border: 0.5px solid var(--light-gray);
   border-radius:50px!important;
   margin: 10px 0 !important;
   opacity: 0.5 !important;
