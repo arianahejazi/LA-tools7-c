@@ -1,4 +1,4 @@
-﻿:root {
+:root {
   --tifany:#1DE9B6;
   --light-tifany: #B2DFDB;
   --light-orange-10:#ffcd7b;
@@ -8,66 +8,139 @@
   --blue : #0f6ce3;
   --light-gray-10: #f9f9f9;
   --light-gray: #d2d2d2;
-  --gray-10: #ababab;
   --gray:#959595;
   --white : #ffffff;
   --light-black :#353535;
   --black: #000000;
   --light-green:#b0e4b4;
-  --green :#8ad472;
   --dark-green:#3b533d;
   --light-red:#ffacaa;
   --red:#fd7a91;
 }
 
-body{
-  background: var(--light-tifany)!important;
+body , *{
+  font-family: monospace !important;
+  text-shadow: none!important;
 }
 
-#counter{
-  padding: 1em!important;
-  font-size: 1.5em!important;
-  color: var(--light-black)!important;
-
+*:focus{
+  outline: none !important;
 }
 
-#boxcard > div > div > div{
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
+#mainpage{
+  background: var(--light-gray-10)!important;
 }
 
-#boxcard > div > div > div.front{
-  border: 1px solid var(--gray-10)!important;
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
-
-}
-
-#boxcard > div > div > div.back{
-  background: var(--white) !important;
+#progressbar{
   border: 1px solid var(--light-gray)!important;
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
-
+  border-radius: 50px!important;
+  height: 25px!important;
+  margin-top: 20px!important;
 }
-
-#boxcard > div img{
-  border-radius: 9px!important;
-}
-
-#boxcard .cardInner {
-  font-size: 1.5em!important;
+.progress-label {
   color: var(--light-black)!important;
+  text-shadow: none!important;
+}
+.ui-progressbar .ui-progressbar-value{
+  background: var(--light-tifany)!important;
+  border: none!important;
+  -webkit-box-sizing: border-box!important;
+          box-sizing: border-box!important;
+  margin: 0!important;
+  padding: 0!important;
+  height: 60px;
 }
 
-#boxcard > div.flippedDone .cardInner div{
-  border: 4px solid var(--green)!important;
-  border-radius: 5px!important;
+.ui-field-contain label.ui-input-text{
+  margin: 0 10px!important;
+  background: transparent !important;
 }
 
-#boxcard > div img {
-  max-width: 150px!important;
-  max-height: 150px!important;
+.ui-br {
+  border: none;
+}
+
+.ui-field-contain input.ui-input-text{
+  border-radius: 50px!important;
+  border: 1px solid var(--light-gray)!important;
+  padding-right: 15px!important;
+  padding-left: 15px!important;
+}
+
+
+.ui-shadow-inset {
+    -webkit-box-shadow: none!important;
+            box-shadow: none!important;
+}
+
+#page h3{
+  color: var(--light-black);
+}
+
+.feedbackText img{
+  display: none !important;
+}
+
+#fragen{
+  border: none !important;
+}
+
+.ui-btn-up-b{
+  border-radius: 50px!important;
+  border: 1px solid var(--light-gray)!important;
+  color: var(--white)!important;
+  background: var(--blue)!important;
+  -webkit-box-shadow: none!important;
+          box-shadow: none!important;
+}
+
+.ui-btn-hover-b{
+  border-radius: 50px!important;
+  border: 1px solid var(--light-gray)!important;
+  color: var(--white)!important;
+  background: var(--blue)!important;
+  -webkit-box-shadow: none!important;
+          box-shadow: none!important;
+  opacity: 0.5 !important;
+}
+
+.ui-btn-up-b:hover{
+  border-radius: 50px!important;
+  border: 1px solid var(--light-gray)!important;
+  color: var(--white)!important;
+  background: var(--blue)!important;
+  -webkit-box-shadow: none!important;
+          box-shadow: none!important;
+  opacity: 0.5 !important;
+}
+
+.ui-btn{
+  border: 1px solid var(--light-gray)!important;
+  -webkit-box-shadow: none!important;
+          box-shadow: none!important;
+}
+
+#feedbackText > span{
+  color: var(--red)!important;
+}
+
+
+/* check solve button */
+#checkSolutionBtn{
+  background: var(--light-green)!important;
+  color: var(--dark-green)!important;
+  padding: 21px 23px!important;
+  width: 80px!important;
+  height: 80px!important;
+  -webkit-box-shadow: none!important;
+          box-shadow: none!important;
+  font-size: 30px!important;
+  border: 2px solid var(--dark-green)!important;
+  margin: 5px 10px!important;
+}
+
+#checkSolutionBtn:hover{
+  opacity: 0.7!important;
 }
 
 /* meseage */
@@ -80,7 +153,11 @@ body{
   border-bottom: 1px solid var(--light-gray)!important;
   padding: 25px!important;
   -webkit-box-shadow:none !important;
-          box-shadow:none !important;
+  box-shadow:none !important;
+  -webkit-border-radius: 8px !important;
+  -moz-border-radius: 8px !important;
+  -ms-border-radius: 8px !important;
+  -o-border-radius: 8px !important;
 }
 
 #AppClientTaskPanel p{
